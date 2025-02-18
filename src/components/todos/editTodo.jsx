@@ -5,7 +5,6 @@ const EditTodo = ({ todo, isOpen, onClose, onEdit }) => {
   // eslint-disable-next-line react/prop-types
 
   const [editTodo, setEditTodo] = useState({ ...todo });
-  console.log("ei", editTodo, todo);
 
   const onInputchange = (event) => {
     setEditTodo({ ...editTodo, title: event.target.value });
