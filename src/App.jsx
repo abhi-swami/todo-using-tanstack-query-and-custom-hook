@@ -1,5 +1,7 @@
 import "./App.css";
-import Todo from "./Todos";
+// import Todo from "./TodosUsingmutate";
+import Todo from "./TodosUsinguseSWRMutation";
+
 
 function App() {
   return (
